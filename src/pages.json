@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {"path": "pages/menu/menu", "style": {"navigationBarTitleText": "菜单"}},
+    {"path": "pages/recipe/recipe", "style": {"navigationBarTitleText": "每日食谱"}}
+  ],
+  "globalStyle": {"navigationBarTextStyle": "black", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8"},
+  "usingComponents": {
+    "uni-date-picker": "@dcloudio/uni-ui/lib/uni-date-picker/uni-date-picker"
+  },
+  "tabBar": {"color": "#999999", "selectedColor": "#007AFF", "backgroundColor": "#ffffff", "list": [
+    {"pagePath": "pages/menu/menu", "text": "菜单", "iconPath": "static/menu.png", "selectedIconPath": "static/menu_selected.png"},
+    {"pagePath": "pages/recipe/recipe", "text": "每日食谱", "iconPath": "static/recipe.png", "selectedIconPath": "static/recipe_selected.png"}
+  ]}
+}

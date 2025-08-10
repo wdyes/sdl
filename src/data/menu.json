@@ -1,0 +1,16 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "糖醋排骨",
+      "price": 38,
+      "image": "static/dishes/tangcupaigu.jpg"
+    },
+    {
+      "id": 2,
+      "name": "西红柿炒鸡蛋",
+      "price": 18,
+      "image": "static/dishes/xihongshichaojidan.jpg"
+    }
+  ]
+}
